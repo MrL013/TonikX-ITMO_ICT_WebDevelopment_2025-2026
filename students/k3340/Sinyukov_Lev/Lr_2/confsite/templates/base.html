@@ -20,7 +20,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarMain">
       <ul class="navbar-nav me-auto">
-        <li class="nav-item"><a class="nav-link" href="{% url 'conf_list' %}">Каталог</a></li>
         <li class="nav-item"><a class="nav-link" href="{% url 'participants' %}">Участники</a></li>
         {% if request.user.is_staff %}
           <li class="nav-item"><a class="nav-link" href="/admin/">Админка</a></li>
